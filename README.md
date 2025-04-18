@@ -3,12 +3,12 @@
 My first HTML and CSS project :star_struck:
 
 # Task List
-[x] Landing page
-[x] About page
-[x] Projects page
-[] Blog page
-[] Contact page
-[] CV page
+- [x] Landing page
+- [x] About page
+- [x] Projects page
+- [ ] Blog page
+- [ ] Contact page
+- [ ] CV page
 
 # Websites Used
 - [FreeFrontend](https://freefrontend.com/)
