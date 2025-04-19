@@ -141,6 +141,20 @@ h3 {
   }
 
   .textbox {
-    display:flex
+    display:flex;
     flex-direction: column;
   }
+
+  @media (max-width: 768px) { /* For tablets and smaller devices */
+    .textbox {
+        margin: 20px 50px; /* Reduce side margins */
+        font-size: 1em; /* Adjust font size */
+    }
+}
+
+@media (max-width: 480px) { /* For mobile devices */
+    .textbox {
+        margin: 10px 20px; /* Further reduce side margins */
+        font-size: 0.9em; /* Further adjust font size */
+    }
+}
