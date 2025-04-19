@@ -139,3 +139,8 @@ h3 {
     }
     4%, 100% {  text-shadow: none; transform: none; }
   }
+
+  .textbox {
+    display:flex
+    flex-direction: column;
+  }
