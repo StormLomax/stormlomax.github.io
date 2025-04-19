@@ -6,9 +6,11 @@ My first HTML and CSS project :star_struck:
 - [x] Landing page
 - [x] About page
 - [x] Projects page
-- [ ] Blog page
-- [ ] Contact page
-- [ ] CV page
+- [x] Blog page
+- ~~[ ] Contact page~~ Contact links are on the bottom of each page so a dedicated page is no longer needed
+- [x] CV page
+- [ ] Make it mobile friendly
+- [ ] Add 'Ongoing Projects' section
 
 # Websites Used
 - [FreeFrontend](https://freefrontend.com/)
