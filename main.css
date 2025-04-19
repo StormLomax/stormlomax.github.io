@@ -140,10 +140,6 @@ h3 {
     4%, 100% {  text-shadow: none; transform: none; }
   }
 
-  .textbox {
-    display:flex;
-    flex-direction: column;
-  }
 
   @media (max-width: 768px) { /* For tablets and smaller devices */
     .textbox {
