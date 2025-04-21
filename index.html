@@ -9,135 +9,75 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/b66cbbd922.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: courier;
-            line-height: 1.6;
-        }
-
-        h1 {
-            color: #333;
-            font-size: 3.5em;
-            font-weight: 100;
-            text-align: center;
-            background-color: #ffffff;
-            margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 3px 3px #333;
-            padding: 0.4em 0.2em;
-            border: 1px solid #333;
-            max-width: 90%;
-        }
-
-        h2 {
-            color: #0d9f00;
-            font-size: 2.0em;
-            font-weight: 100;
-            text-align: center;
-            background-color: #ffffff;
-            margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 3px 3px #333;
-            padding: 0.4em 0.2em;
-            border: 1px solid #333;
-            max-width: 90%;
-        }
-
-        div.textbox {
-            text-align: center;
-            color: #0d9f00;
-            font-size: 1.25em;
-            margin: 20px auto;
-            max-width: 90%;
-        }
-
-        .h3 {
-            color: #0d9f00;
-            font-size: 2.5em;
-            font-weight: bold;
-            text-align: left;
-            margin: 20px auto;
-            max-width: 90%;
-        }
-
-        .socialmedia {
-            text-align: center;
-            font-size: 4em;
-            margin: 10px 0 20px;
-        }
-
-        .stack {
-            color: #0d9f00;
-            font-weight: lighter;
-            text-align: center;
-        }
-
-        /* Responsive styles */
-        @media (max-width: 768px) {
-            h1, h2, .textbox, .h3, .crumb3 {
-                font-size: 1.5em;
-                margin: 10px auto;
-            }
-
-            .socialmedia {
-                font-size: 3em;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1, h2, .textbox, .h3, .crumb3 {
-                font-size: 1.2em;
-                margin: 5px auto;
-            }
-
-            .socialmedia {
-                font-size: 2em;
-            }
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="stack" style="--stacks: 3;">
-            <span style="--index: 0;">hello world</span>
-            <span style="--index: 1;">hello world</span>
-            <span style="--index: 2;">hello world</span>
-        </div>
+<div class="container">
+    <div class="stack" style="--stacks: 3;">
+        <span style="--index: 0;">hello world</span>
+        <span style="--index: 1;">hello world</span>
+        <span style="--index: 2;">hello world</span>
     </div>
+</div>
 
-    <div class="center">
-        <ul class="crumb3">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="cv.html">CV</a></li>
-        </ul>
-    </div>
-
-    <div class="h3">.intro {</div>
+<div class="h3">.intro {</div>
     <div class="textbox">
-        I'm <a href="about.html"><mark><span style="color:#ffffff">Storm Lomax</span></mark></a>, a Cloud Engineer at SSE, based in Glasgow, Scotland.
-        I'm a graduate of a Level 8 Cybersecurity Apprenticeship, and certified in AWS and Terraform.
-        <p>
-        I love learning new things and solving puzzles, and I'm passionate about perfecting my craft.
-        I maintain a technical blog and undertake several projects in my personal time.
-        Check out my GitHub repo or my blog for more.
+        <p>Hi there! I'm Storm Lomax,
+            a Cloud Engineer at SSE, based in Glasgow, Scotland.
+            I'm a graduate of a Level 8 Cybersecurity Apprenticeship, and certified in AWS and Terraform.</p>
+        <p>I love learning new things and solving puzzles, and I'm passionate about perfecting my craft.</p>
+        <p>Check out my GitHub repo for more.</p>
     </div>
-    <div class="h3">}</div>
-
-    <div>
-        <ul class="socialmedia">
-            <a href="https://github.com/StormLomax" class="fa-brands fa-github" style="color: #0d9f00;"></a>
-            <a href="https://www.linkedin.com/in/stormlomax" class="fa-brands fa-linkedin" style="color: #0d9f00;"></a>
-            <a href="mailto:stormlomax@icloud.com" class="fa-solid fa-envelope" style="color: #0d9f00;"></a>
-        </ul>
+<div class="h3">}</div>
+<hr>
+<div class="h3">.about {</div>
+    <div class="textbox">
+        <p>In 2023, I started a Cybersecurity apprenticeship with NatWest. I was always interested
+        in cloud technology, so I gained AWS Cloud Practitioner and AWS Security Fundamentals certifications.
+        I became familiar with Infrastructure as Code (IaC) using Terraform, and some DevOps basics.</p>
+        <p>I graduated in 2025, and started working as a Cloud Engineer with SSE in the Site Reliability team.
+        I work with Azure, and use a wide range of tools and technologies, including Terraform, GitHub Actions,
+        and Splunk.</p>
+        <p>I'm currently working towards my Azure Administrator Associate certification.</p>
+        <p>Outside of work, I enjoy working on personal projects which you can view on my GitHub. I'm currently 
+        building an author website for myself (I also write fiction) and I'm aiming to create my first game.</p>
     </div>
+<div class="h3">}</div>
+<hr>
+<div class="h3">.cv {</div>
+    <div class="textbox">
+        <p>You can download my CV <mark><a href="Storm_Lomax_CV.pdf" style="color: #ffffff;">here</a></mark>.</p>
+    </div>
+<div class="h3">}</div>
+<hr>
+<div class="h3">.projects {</div>
+    <div class="textbox">
+        <h3><a href="https://github.com/StormLomax/Simple-Calculator">Simple Calculator</a></h3>
+        <p>A simple calculator built with HTML, CSS, and JavaScript.
+        It performs basic arithmetic operations and has a user-friendly interface.</p>
+        <h3><a href="https://github.com/StormLomax/Simple-Calculator-2">Python Calculator</a></h3>
+        <p>A simple calculator built with Python.</p>
+        <h3><a href="https://github.com/StormLomax/haikyuu-quiz">Haikyuu Personality Test</a></h3>
+        <p>A personality test based on Haikyuu characters. Built with Python.</p>
+        <h3><a href="https://github.com/StormLomax/to-do-list">To Do List</a></h3>
+        <p>An interactive to-do list application built with HTML, CSS, and JavaScript.</p>
+    </div>
+<div class="h3">}</div>
+<hr>
+<div>
+    <ul class="socialmedia">
+        <a href="https://github.com/StormLomax" class="fa-brands fa-github" style="color: #0d9f00;"></a>
+        <a href="https://www.linkedin.com/in/stormlomax" class="fa-brands fa-linkedin" style="color: #0d9f00;"></a>
+        <a href="mailto:stormlomax@icloud.com" class="fa-solid fa-envelope" style="color: #0d9f00;"></a>
+    </ul>
+</div>
 
-    <script src="app.js"></script>
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
+<div class="textbox">
+    Website built by Storm Lomax
+</div>
+
+<script src="app.js"></script>
+<noscript>You need to enable JavaScript to view the full site.</noscript>
+
 </body>
 </html>
