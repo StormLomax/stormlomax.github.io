@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storm Lomax Website</title>
+    <title>Storm Lomax Projects</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/b66cbbd922.js" crossorigin="anonymous"></script>
@@ -16,45 +16,78 @@
             font-weight: 100;
             text-align: center;
             background-color: #ffffff;
-            margin: 20px 250px;
+            margin: 20px auto;
             border-radius: 10px;
             box-shadow: 3px 3px #333;
             padding: 0.4em 0.2em;
             border: 1px solid #333;
+            max-width: 90%;
         }
+
         h2 {
             color: #0d9f00;
             font-size: 2.0em;
             font-weight: 100;
             text-align: center;
             background-color: #ffffff;
-            margin: 20px 250px;
+            margin: 20px auto;
             border-radius: 10px;
             box-shadow: 3px 3px #333;
             padding: 0.4em 0.2em;
             border: 1px solid #333;
+            max-width: 90%;
         }
+
         div.textbox {
             text-align: center;
             color: #0d9f00;
             font-size: 1.25em;
-            margin: 20px 200px 20px;
+            margin: 20px auto;
+            max-width: 90%;
         }
+
         .h3 {
             color: #0d9f00;
             font-size: 2.5em;
             font-weight: bold;
             text-align: left;
-            margin: 20px 0 0 180px;
+            margin: 20px auto;
+            max-width: 90%;
         }
+
         .socialmedia {
-            position: center;
+            text-align: center;
             font-size: 4em;
             margin: 10px 0 20px;
         }
+
         .stack {
             color: #0d9f00;
             font-weight: lighter;
+            text-align: center;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            h1, h2, .textbox, .h3 {
+                font-size: 1.5em;
+                margin: 10px auto;
+            }
+
+            .socialmedia {
+                font-size: 3em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1, h2, .textbox, .h3 {
+                font-size: 1.2em;
+                margin: 5px auto;
+            }
+
+            .socialmedia {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
@@ -80,15 +113,15 @@
 
     <div class="h3">.projects {</div>
     <div class="textbox">
-        <b><a href="https://github.com/StormLomax/Simple-Calculator"<mark><span style="color:#ffffff">Simple Calculator</span></mark></b></a> A simple calculator built with HTML, CSS, and JavaScript.
+        <h3><b><a href="https://github.com/StormLomax/Simple-Calculator"><mark><span style="color:#ffffff">Simple Calculator</span></mark></a></b></h3> A simple calculator built with HTML, CSS, and JavaScript.
         It performs basic arithmetic operations and has a user-friendly interface.
-        <br><p>
-        <b><a href="https://github.com/StormLomax/Simple-Calculator-2"<mark><span style="color:#ffffff">Python Calculator</span></mark></b><br> A simple calculator built with Python.
-        <br><p>
-        <b><a href="https://github.com/StormLomax/haikyuu-quiz"<mark><span style="color:#ffffff">Haikyuu Personality Test</span></mark></b><br> A personality test based on Haikyuu characters. Built with Python.
-        <br><p>
-        <b><a href="https://github.com/StormLomax/to-do-list"<mark><span style="color:#ffffff">To Do List</span></mark></b><br> An interactive to-do list application built with HTML, CSS, and JavaScript.
-        </div>
+        <p>
+        <h3><b><a href="https://github.com/StormLomax/Simple-Calculator-2"><mark><span style="color:#ffffff">Python Calculator</span></mark></a></b></h3> A simple calculator built with Python.
+        <p>
+        <h3><b><a href="https://github.com/StormLomax/haikyuu-quiz"><mark><span style="color:#ffffff">Haikyuu Personality Test</span></mark></a></b></h3> A personality test based on Haikyuu characters. Built with Python.
+        <p>
+        <h3><b><a href="https://github.com/StormLomax/to-do-list"><mark><span style="color:#ffffff">To Do List</span></mark></a></b></h3> An interactive to-do list application built with HTML, CSS, and JavaScript.
+    </div>
     <div class="h3">}</div>
 
     <div>

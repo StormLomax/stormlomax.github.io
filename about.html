@@ -10,51 +10,77 @@
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/b66cbbd922.js" crossorigin="anonymous"></script>
     <style>
-        h1 {
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
             color: #333;
             font-size: 3.5em;
             font-weight: 100;
             text-align: center;
             background-color: #ffffff;
-            margin: 20px 250px;
+            margin: 20px auto;
             border-radius: 10px;
             box-shadow: 3px 3px #333;
             padding: 0.4em 0.2em;
             border: 1px solid #333;
+            max-width: 90%;
         }
-        h2 {
-            color: #0d9f00;
-            font-size: 2.0em;
-            font-weight: 100;
-            text-align: center;
-            background-color: #ffffff;
-            margin: 20px 250px;
-            border-radius: 10px;
-            box-shadow: 3px 3px #333;
-            padding: 0.4em 0.2em;
-            border: 1px solid #333;
-        }
+
         div.textbox {
             text-align: center;
             color: #0d9f00;
             font-size: 1.25em;
-            margin: 20px 200px 20px;
+            margin: 20px auto;
+            max-width: 90%;
         }
+
         .h3 {
             color: #0d9f00;
             font-size: 2.5em;
             font-weight: bold;
             text-align: left;
-            margin: 20px 0 0 180px;
+            margin: 20px auto;
+            max-width: 90%;
         }
+
         .socialmedia {
-            position: center;
+            text-align: center;
             font-size: 4em;
             margin: 10px 0 20px;
         }
+
         .stack {
             color: #0d9f00;
             font-weight: lighter;
+            text-align: center;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            h1, h2, .textbox, .h3, .crumb3 {
+                font-size: 1.5em;
+                margin: 10px auto;
+            }
+
+            .socialmedia {
+                font-size: 3em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1, h2, .textbox, .h3, .crumb3 {
+                font-size: 1.2em;
+                margin: 5px auto;
+            }
+
+            .socialmedia {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
@@ -81,15 +107,15 @@
     <div class="h3">.about {</div>
     <div class="textbox">
         In 2023, I started a Cybersecurity apprenticeship with NatWest. I was always interested
-        cloud technology, so I gained AWS Cloud Practitioner and AWS Security Fundamentals certifications.
+        in cloud technology, so I gained AWS Cloud Practitioner and AWS Security Fundamentals certifications.
         I became familiar with Infrastructure as Code (IaC) using Terraform, and some DevOps basics.
-        <br><p>
+        <p>
         I graduated in 2025, and started working as a Cloud Engineer with SSE in the Site Reliability team.
         I work with Azure, and use a wide range of tools and technologies, including Terraform, GitHub Actions,
         and Splunk.
-        <br><p>
+        <p>
         I'm currently working towards my Azure Administrator Associate certification.
-        <br><p>
+        <p>
         Outside of work, I enjoy working on personal projects which you can view on my GitHub. I'm currently 
         building an author website for myself (I also write fiction) and I'm aiming to create my first game.
     </div>
